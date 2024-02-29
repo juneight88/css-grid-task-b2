@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.item {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.site-title {
+  grid-column: span 12;
+  background-color: lightblue;
+}
+
+.nav {
+  grid-column: span 6;
+  background-color: lightgreen;
+}
+
+.post-title {
+  grid-column: span 6;
+  background-color: lightcoral;
+}
+
+.post-meta {
+  grid-column: span 6;
+  background-color: lightyellow;
+}
+
+.footer {
+  grid-column: span 12;
+  background-color: lightgray;
+}
+
+.main-content {
+  grid-column: span 9;
+  grid-row: span 2;
+  background-color: lightsalmon;
+}
+
+.main-content-image {
+  grid-column: span 3;
+  grid-row: span 2;
+  background-color: lightcyan;
+}
+
+.side-bar {
+  grid-column: span 3;
+  background-color: lightblue;
+}
+
+.ads {
+  grid-column: span 6;
+  background-color: lightgreen;
+}
+
+.other-stuffs {
+  grid-column: span 6;
+  background-color: lightcoral;
+}
